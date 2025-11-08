@@ -3,120 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UX/UI Portfolio</title>
-    <link rel="stylesheet" href="style.css?v=1.1">
+    <title>Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css?v=2.0">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="#00bfff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 7L12 12L22 7" stroke="#00bfff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 22V12" stroke="#00bfff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
         <nav>
-            <div class="logo">Logo</div>
-            <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
+
     <main>
-        <section id="hero">
-            <div class="hero-content">
-                <h1>UX/UI Developer & Designer</h1>
-                <p>Creating beautiful and intuitive user experiences.</p>
-            </div>
-            <div id="three-container"></div>
-        </section>
-        <section id="portfolio">
-            <h2>My Work</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Tech Project">
-                    <h3>E-commerce Redesign</h3>
-                    <p>A complete UX/UI redesign for a major e-commerce platform, focusing on improving user flow and conversion rates.</p>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <div class="profile-card">
+                    <img src="https://i.imgur.com/8b2606E.png" alt="Avatar" class="avatar">
+                    <div>
+                        <p>A Software Engineer who</p>
+                        <h2>Judges a book by its <span class="highlight">cover...</span></h2>
+                    </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1512428559084-b3de39a3b3ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mobile App">
-                    <h3>Mobile Banking App</h3>
-                    <p>Designed and developed a secure and intuitive mobile banking application for a new fintech startup.</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Web App">
-                    <h3>Project Management Tool</h3>
-                    <p>A web-based project management tool with a focus on collaboration and real-time updates.</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Landing Page">
-                    <h3>SaaS Landing Page</h3>
-                    <p>A high-converting landing page for a new SaaS product, designed to maximize sign-ups.</p>
-                </div>
+                <h1>I'm a Software Engineer.</h1>
+                <p class="subtitle">Currently, I'm a Software Engineer at <span class="highlight">Somewhere.</span></p>
+                <p class="description">A self-taught UI/UX designer. I want to make the web a prettier place. I enjoy creating beautiful user interfaces that are both functional and easy to use.</p>
             </div>
         </section>
-        <section id="skills">
-            <h2>Languages & Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <div class="skill-icon" id="html-icon"></div>
-                    <p>HTML</p>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-header">UI/UX Internship</div>
+                    <div class="card-company">Company Name</div>
+                    <div class="card-date">Apr 2021 - May 2021</div>
                 </div>
-                <div class="skill-item">
-                    <div class="skill-icon" id="css-icon"></div>
-                    <p>CSS</p>
+                <div class="experience-card">
+                    <div class="card-header">UI/UX Internship</div>
+                    <div class="card-company">Company Name</div>
+                    <div class="card-date">Apr 2021 - May 2021</div>
                 </div>
-                <div class="skill-item">
-                    <div class="skill-icon" id="js-icon"></div>
-                    <p>JavaScript</p>
+                <div class="experience-card">
+                    <div class="card-header">UI/UX Internship</div>
+                    <div class="card-company">Company Name</div>
+                    <div class="card-date">Apr 2021 - May 2021</div>
                 </div>
-                <div class="skill-item">
-                    <div class="skill-icon" id="python-icon"></div>
-                    <p>Python</p>
-                </div>
-                 <div class="skill-item">
-                    <div class="skill-icon" id="react-icon"></div>
-                    <p>React</p>
-                </div>
-                 <div class="skill-item">
-                    <div class="skill-icon" id="node-icon"></div>
-                    <p>Node.js</p>
+                <div class="experience-card">
+                    <div class="card-header">UI/UX Internship</div>
+                    <div class="card-company">Company Name</div>
+                    <div class="card-date">Apr 2021 - May 2021</div>
                 </div>
             </div>
         </section>
-        <section id="about">
-            <div class="about-content">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Profile Picture" class="profile-pic">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I am a passionate UX/UI designer and developer with a knack for creating intuitive and engaging digital experiences. With a strong foundation in design principles and a proficiency in modern web technologies, I strive to bridge the gap between user needs and business goals.</p>
-                    <p>My process is user-centric, and I believe in the power of research and data to inform design decisions. I am skilled in wireframing, prototyping, and user testing, and I'm comfortable working with HTML, CSS, and JavaScript to bring my designs to life.</p>
+
+        <section class="tech-stack">
+            <p>I'm currently looking to join a cross-functional team</p>
+            <p class="tech-focus">that values improving people's lives through accessible design.</p>
+            <div class="tech-icons">
+                <!-- Tech icons can be added here if needed -->
+            </div>
+        </section>
+
+        <section id="logo-3d">
+            <div id="three-logo-container"></div>
+        </section>
+
+        <section id="projects">
+            <div class="project">
+                <div class="project-text">
+                    <h3>Example Project</h3>
+                    <p>A self-taught UI/UX designer. I want to make the web a prettier place. I enjoy creating beautiful user interfaces that are both functional and easy to use.</p>
+                    <div class="project-links">
+                        <a href="#">🔗</a>
+                        <a href="#">🔗</a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="https://i.imgur.com/kYqkj4E.png" alt="Project wireframe">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="https://i.imgur.com/kYqkj4E.png" alt="Project wireframe">
+                </div>
+                <div class="project-text">
+                    <h3>Example Project</h3>
+                    <p>A self-taught UI/UX designer. I want to make the web a prettier place. I enjoy creating beautiful user interfaces that are both functional and easy to use.</p>
+                    <div class="project-links">
+                        <a href="#">🔗</a>
+                        <a href="#">🔗</a>
+                    </div>
                 </div>
             </div>
         </section>
+
         <section id="contact">
-            <h2>Get in Touch</h2>
-            <div class="contact-container">
-                <form action="#" method="POST">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-                <div class="social-links">
-                    <h3>Connect with me</h3>
-                    <ul>
-                        <li><a href="#" target="_blank">LinkedIn</a></li>
-                        <li><a href="#" target="_blank">GitHub</a></li>
-                        <li><a href="#" target="_blank">Dribbble</a></li>
-                    </ul>
-                </div>
+            <h2>Contact</h2>
+            <p>I'm currently looking to join a cross-functional team, so if you're looking for a developer and a designer, you can contact me through my social media.</p>
+            <p class="email">your.email@example.com</p>
+            <div class="social-media">
+                <a href="#">🔗</a>
+                <a href="#">🔗</a>
+                <a href="#">🔗</a>
             </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024</p>
-    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="script.js?v=1.1"></script>
+    <script src="script.js?v=2.0"></script>
 </body>
 </html>
