@@ -3,121 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Engineer Portfolio</title>
-    <link rel="stylesheet" href="style.css?v=2.0">
+    <title>UX/UI Developer & Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=2.1">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="#00bfff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M2 7L12 12L22 7" stroke="#00bfff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M12 22V12" stroke="#00bfff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+    <div class="container">
+        <header>
+            <h1>I'm currently looking to join a <span class="highlight">cross-functional team</span></h1>
+            <p>that values improving people's lives through accessible design</p>
+        </header>
+
+        <div class="skills-grid-container">
+            <div class="skills-grid">
+                <!-- Row 1 -->
+                <div class="skill-icon" id="figma"></div>
+                <div class="skill-icon" id="react"></div>
+                <div class="skill-icon" id="c"></div>
+                <div class="skill-icon" id="node"></div>
+                <div class="skill-icon" id="git"></div>
+                <div class="skill-icon" id="jira"></div>
+                <div class="skill-icon" id="illustrator"></div>
+                <!-- Row 2 -->
+                <div class="skill-icon" id="xd"></div>
+                <div class="skill-icon" id="html"></div>
+                <div class="skill-icon" id="gimp"></div>
+                <div class="skill-icon" id="ae"></div>
+                <div class="skill-icon" id="lightroom"></div>
+                <div class="skill-icon" id="agile"></div>
+            </div>
         </div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-text">
-                <div class="profile-card">
-                    <img src="https://i.imgur.com/8b2606E.png" alt="Avatar" class="avatar">
-                    <div>
-                        <p>A Software Engineer who</p>
-                        <h2>Judges a book by its <span class="highlight">cover...</span></h2>
-                    </div>
-                </div>
-                <h1>I'm a Software Engineer.</h1>
-                <p class="subtitle">Currently, I'm a Software Engineer at <span class="highlight">Somewhere.</span></p>
-                <p class="description">A self-taught UI/UX designer. I want to make the web a prettier place. I enjoy creating beautiful user interfaces that are both functional and easy to use.</p>
-            </div>
-        </section>
+        <svg class="lines-svg" width="100%" height="100%" preserveAspectRatio="none">
+            <!-- Lines will be generated here -->
+        </svg>
 
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <div class="card-header">UI/UX Internship</div>
-                    <div class="card-company">Company Name</div>
-                    <div class="card-date">Apr 2021 - May 2021</div>
-                </div>
-                <div class="experience-card">
-                    <div class="card-header">UI/UX Internship</div>
-                    <div class="card-company">Company Name</div>
-                    <div class="card-date">Apr 2021 - May 2021</div>
-                </div>
-                <div class="experience-card">
-                    <div class="card-header">UI/UX Internship</div>
-                    <div class="card-company">Company Name</div>
-                    <div class="card-date">Apr 2021 - May 2021</div>
-                </div>
-                <div class="experience-card">
-                    <div class="card-header">UI/UX Internship</div>
-                    <div class="card-company">Company Name</div>
-                    <div class="card-date">Apr 2021 - May 2021</div>
-                </div>
-            </div>
-        </section>
+        <div id="three-container"></div>
 
-        <section class="tech-stack">
-            <p>I'm currently looking to join a cross-functional team</p>
-            <p class="tech-focus">that values improving people's lives through accessible design.</p>
-            <div class="tech-icons">
-                <!-- Tech icons can be added here if needed -->
-            </div>
-        </section>
-
-        <section id="logo-3d">
-            <div id="three-logo-container"></div>
-        </section>
-
-        <section id="projects">
-            <div class="project">
-                <div class="project-text">
-                    <h3>Example Project</h3>
-                    <p>A self-taught UI/UX designer. I want to make the web a prettier place. I enjoy creating beautiful user interfaces that are both functional and easy to use.</p>
-                    <div class="project-links">
-                        <a href="#">🔗</a>
-                        <a href="#">🔗</a>
-                    </div>
-                </div>
-                <div class="project-image">
-                    <img src="https://i.imgur.com/kYqkj4E.png" alt="Project wireframe">
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-image">
-                    <img src="https://i.imgur.com/kYqkj4E.png" alt="Project wireframe">
-                </div>
-                <div class="project-text">
-                    <h3>Example Project</h3>
-                    <p>A self-taught UI/UX designer. I want to make the web a prettier place. I enjoy creating beautiful user interfaces that are both functional and easy to use.</p>
-                    <div class="project-links">
-                        <a href="#">🔗</a>
-                        <a href="#">🔗</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>I'm currently looking to join a cross-functional team, so if you're looking for a developer and a designer, you can contact me through my social media.</p>
-            <p class="email">your.email@example.com</p>
-            <div class="social-media">
-                <a href="#">🔗</a>
-                <a href="#">🔗</a>
-                <a href="#">🔗</a>
-            </div>
-        </section>
-    </main>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="script.js?v=2.0"></script>
+    <script src="script.js?v=2.1"></script>
 </body>
 </html>
