@@ -228,3 +228,44 @@ footer {
     margin-top: 50px;
     border-top: 1px solid #1a1a1a;
 }
+/* Skills Section */
+#skills {
+    background-color: #0a0a0a;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skill-item {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 191, 255, 0.2);
+}
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.skill-item p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.1em;
+}
