@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo</div>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>UX/UI Developer & Designer</h1>
+                <p>Creating beautiful and intuitive user experiences.</p>
+            </div>
+            <div id="three-container"></div>
+        </section>
+        <section id="portfolio">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Tech Project">
+                    <h3>E-commerce Redesign</h3>
+                    <p>A complete UX/UI redesign for a major e-commerce platform, focusing on improving user flow and conversion rates.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1512428559084-b3de39a3b3ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mobile App">
+                    <h3>Mobile Banking App</h3>
+                    <p>Designed and developed a secure and intuitive mobile banking application for a new fintech startup.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Web App">
+                    <h3>Project Management Tool</h3>
+                    <p>A web-based project management tool with a focus on collaboration and real-time updates.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Landing Page">
+                    <h3>SaaS Landing Page</h3>
+                    <p>A high-converting landing page for a new SaaS product, designed to maximize sign-ups.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-content">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Profile Picture" class="profile-pic">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I am a passionate UX/UI designer and developer with a knack for creating intuitive and engaging digital experiences. With a strong foundation in design principles and a proficiency in modern web technologies, I strive to bridge the gap between user needs and business goals.</p>
+                    <p>My process is user-centric, and I believe in the power of research and data to inform design decisions. I am skilled in wireframing, prototyping, and user testing, and I'm comfortable working with HTML, CSS, and JavaScript to bring my designs to life.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <div class="contact-container">
+                <form action="#" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <h3>Connect with me</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">LinkedIn</a></li>
+                        <li><a href="#" target="_blank">GitHub</a></li>
+                        <li><a href="#" target="_blank">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
